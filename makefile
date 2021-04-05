@@ -1,4 +1,4 @@
-MNG.exe:main.o big3.o fact.o 
+MNG.exe:main.o big3.o fact.o
         gcc -o MNG.exe main.o big3.o fact.o
 main.o:main.c
         gcc -c main.c
